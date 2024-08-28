@@ -23,9 +23,9 @@ const Nav = () => {
 
 
   return (
-<div className="bg-glass w-full h-28 flex justify-between items-center px-4 ">
-<p  className=" font-bold text-4xl text-cyan-950 ms-5 dark:text-slate-100" >Logo</p>
-<input onClick={toggleDarkMode} type="checkbox" className=" toggle border-0 bg-transparent [--tglbg:rgba(241,245,249,1)] hover:bg-transparent checked:bg-transparent drop-shadow-md" defaultChecked />
+<div className="bg-glass w-full md:h-28 h-10 flex justify-between items-center px-4 ">
+<p  className=" font-bold md:text-4xl text-cyan-950 ms-5 dark:text-slate-100" >Logo</p>
+<input onClick={toggleDarkMode} type="checkbox" className=" toggle border-0 bg-transparent [--tglbg:rgba(241,245,249,1)] hover:bg-transparent checked:bg-transparent drop-shadow-md"  />
 </div>
   )
   

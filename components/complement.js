@@ -5,8 +5,8 @@ import { faArrowUpLong } from '@fortawesome/free-solid-svg-icons';
 const Complement = () => {
   return(
   <div className="mb-3 w-full flex justify-center">
-    <div className='wavy-bg  drop-shadow-lg rounded-xl w-80 p-4 flex justify-evenly items-center'>
-        <div className='text-center text-lg font-semibold text-cyan-950'>
+    <div className='wavy-bg  drop-shadow-lg rounded-xl md:w-80 w-auto p-2 md:p-4 flex justify-evenly items-center'>
+        <div className='text-center md:text-lg font-semibold text-cyan-950'>
             <p>Get a complement !</p>
         </div>
         <div className='hover:bg-sky-400 w-9 h-9 hover:text-slate-100 transition ease-out duration-75 p-2 rounded-full cursor-pointer'>
