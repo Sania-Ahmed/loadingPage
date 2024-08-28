@@ -6,7 +6,7 @@ body {
   height: 100vh;
   background-image: radial-gradient( circle at bottom left, rgb(163, 234, 255), rgb(51, 176, 225));
   background-repeat: no-repeat;
-  background-size: 100vh 100vw; 
+  background-size: 100vw 100vh; 
   background-position: center;
   margin: 0; 
 
